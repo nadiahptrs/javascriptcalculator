@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c2b28f;
+    font-family: sans-serif;
+    outline: none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0,.16);
+    display: grid;
+    grid-template-columns: repeat(4,68px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px 5px 12px rgba(0, 0, 0,.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70, 70,.70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40%;
+    margin-bottom: 30%;
+    padding: 20%;
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                 5px 5px 12px rgba(0, 0, 0,.16);
+                 border: none;
+    border-radius: 50px;
+    margin: 8px;
+}
+button:nth-child(9){
+	font-size: 12px;
+	background-color: #f4dcd3;
+}
+button:nth-child(5){
+	font-size: 12px;
+	background-color: #d2e7ef;
+}
+button:nth-child(13){
+	font-size: 12px;
+	background-color: #d9e3da;
+}
+button:nth-child(20){
+	font-size: 12px;
+	background-color: #d1cfbf;
+}
+button:nth-child(17){
+	font-size: 12px;
+	background-color: #9c947b;
+}
+button:nth-child(3){
+	font-size: 12px;
+	background-color: #c6a376;
+}
+button:nth-child(2){
+	font-size: 12px;
+	background-color: #ecd7a0;
+}
+button:nth-child(4){
+	font-size: 12px;
+	background-color: #dee1c4;
+}
+.equal{
+    width: 115px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px #ffffff,
+                 5px 5px 12px rgba(0, 0, 0,.16);
+                 
+}
